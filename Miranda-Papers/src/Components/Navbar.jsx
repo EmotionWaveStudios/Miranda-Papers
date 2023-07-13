@@ -1,29 +1,18 @@
 const Navbar = () => {
   return (
-    <div>
-      <ul>
-        <li>Amsterdam. NL</li>
+    <div className="">
+      <ul className=" flex items-center justify-between h-20 border-[#6F6C66] border-b-2 ">
+        <li className="text-xs pl-8 translate-x-">Amsterdam. NL</li>
         <li>
           <img
             src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/5f7f87c8b81a6e7a214312f0_header.svg"
             alt="logo"
+            className="w-32"
           />
         </li>
         <li>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className="w-6 h-6"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 9h16.5m-16.5 6.75h16.5"
-            />
-          </svg>
+          <p className="h-2 text-4xl font-bold">—</p>
+          <p className="leading-none pr-9 text-4xl">—</p>
         </li>
       </ul>
     </div>
