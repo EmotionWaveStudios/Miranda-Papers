@@ -1,20 +1,23 @@
 const HorizontalList = () => {
   return (
-    <div id="container">
-      <div id="card">
+    <div
+      id="container"
+      className=" pt-28 flex gap-10 overflow-auto whitespace-nowrap"
+    >
+      <div id="card" className=" border-black border-2 ">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/61cdc506856e75d4b33cd9bd_thumbnail-small.jpeg?"
           alt="books of ye"
         />
         <h3>BOOKS OF YE</h3>
-        <p>
+        <p className="">
           The Books of Ye is a conceptual NFT web experience depicting the five
           Books of Moses, in which each instance of God is replaced with Ye
           (Kanye West).
         </p>
       </div>
 
-      <div id="card">
+      <div id="card" className="  border-black border-2 ">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/621f2de86891ea03211fe874_thumbnail-small.jpeg?"
           alt="om swami"
@@ -26,12 +29,12 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card">
+      <div id="card" className="  border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
           alt="avro-ko"
         />
-        <div id="mix-size-title">
+        <div id="mix-size-title" className="flex">
           <h3>AVRO</h3>
           <h3>|</h3>
           <h3>
@@ -45,7 +48,7 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="middle-card">
+      <div id="middle-card" className="  border-black border-2">
         <h1>ALL WORK!</h1>
         <h2>AFeatured selection the latest work — of the last years.</h2>
         <p>
@@ -53,7 +56,7 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card">
+      <div id="card" className="  border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?"
           alt="the roger hub"
@@ -68,7 +71,7 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card">
+      <div id="card" className="  border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?"
           alt="wow concept"
@@ -83,8 +86,11 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card">
-        <img src="" alt="prada" />
+      <div id="card" className="  border-black border-2">
+        <img
+          src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/615d965c7d1e647b4cb97b73_thumbnail-small.jpeg?"
+          alt="prada"
+        />
         <h3>PRADA®</h3>
         <p>
           Prada Employees online store is an eCommerce outlet gathering previous
