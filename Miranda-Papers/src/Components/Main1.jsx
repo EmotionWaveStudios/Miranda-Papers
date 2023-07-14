@@ -12,7 +12,7 @@ const Main1 = () => {
 
         <div className="flex">
           <p className="bg-black text-white text-lg py-7 px-5">A</p>
-          <p className="text-md-[20px] ">
+          <p className="">
             s a multidisciplinary freelancer, I'm passionate about creating
             iconic digital experiences through motion, typography, and creative
             coding for companies and agencies around the world.
@@ -25,10 +25,10 @@ const Main1 = () => {
           src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg"
           alt="mugshot like ha;f head"
         />
-        <h1>DIGITAL ART DIRECTOR</h1>
-        <h1>INTERACTIVE DESIGNER</h1>
-        <h1>CREATIVE DEVELOPER</h1>
-        <h1>BASED IN AMSTERDAM, NL.</h1>
+        <h1 className="text-md pt-10">DIGITAL ART DIRECTOR</h1>
+        <h1 className="text-md pt-10">INTERACTIVE DESIGNER</h1>
+        <h1 className="text-md pt-10">CREATIVE DEVELOPER</h1>
+        <h1 className="text-md pt-10">BASED IN AMSTERDAM, NL.</h1>
       </div>
     </div>
   );

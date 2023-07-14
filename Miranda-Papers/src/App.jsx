@@ -8,7 +8,7 @@ import Main1 from "./Components/Main1";
 import MirandaBanner from "./Components/MirandaBanner";
 import Navbar from "./Components/Navbar";
 // import QuoteCards from "./Components/QuoteCards";
-// import WebsiteBanner from "./Components/WebsiteBanner";
+import WebsiteBanner from "./Components/WebsiteBanner";
 
 const App = () => {
   return (
@@ -17,6 +17,7 @@ const App = () => {
       <HorizontalList />
       <MirandaBanner />
       <Main1 />
+      <WebsiteBanner />
     </div>
   );
 };
