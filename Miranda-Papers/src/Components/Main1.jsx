@@ -1,17 +1,23 @@
 const Main1 = () => {
   return (
-    <div>
-      <div id="col">
-        <h1>INTERACTIVE ARTIST</h1>
+    <div className="w-11/12 mx-auto flex gap-6">
+      <div id="col" className="w-2/3">
+        <h1 className="font-bold text-md">INTERACTIVE</h1>
+        <h1 className="font-bold text-lg my-11">ARTIST!</h1>
         <img
           src="https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg"
           alt="half head"
+          className="mb-20"
         />
-        <p>
-          <span>A</span>s a multidisciplinary freelancer, I'm passionate about
-          creating iconic digital experiences through motion, typography, and
-          creative coding for companies and agencies around the world.
-        </p>
+
+        <div className="flex">
+          <p className="bg-black text-white text-lg py-7 px-5">A</p>
+          <p className="text-md-[20px] ">
+            s a multidisciplinary freelancer, I'm passionate about creating
+            iconic digital experiences through motion, typography, and creative
+            coding for companies and agencies around the world.
+          </p>
+        </div>
       </div>
 
       <div id="col">
