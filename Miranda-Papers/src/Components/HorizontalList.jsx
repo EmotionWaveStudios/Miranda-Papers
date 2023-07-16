@@ -1,10 +1,7 @@
 const HorizontalList = () => {
   return (
-    <div
-      id="container"
-      className=" pt-28 flex gap-10 overflow-auto whitespace-nowrap"
-    >
-      <div id="card" className=" border-black border-2 ">
+    <div id="container" className=" pt-28 flex gap-10 w-full flex-nowrap">
+      <div id="card" className=" border-black border-2 w-1/4">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/61cdc506856e75d4b33cd9bd_thumbnail-small.jpeg?"
           alt="books of ye"
@@ -17,7 +14,7 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card" className="  border-black border-2 ">
+      <div id="card" className="border-black border-2 w-1/4">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/621f2de86891ea03211fe874_thumbnail-small.jpeg?"
           alt="om swami"
@@ -29,10 +26,11 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card" className="  border-black border-2">
+      <div id="card" className=" w-1/4 border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/615d9672cc65f12c9ab25f21_thumbnail-small.jpeg?"
           alt="avro-ko"
+          className=""
         />
         <div id="mix-size-title" className="flex">
           <h3>AVRO</h3>
@@ -48,15 +46,15 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="middle-card" className="  border-black border-2">
+      <div id="middle-card" className="w-1/2 text-center border-black border-2">
         <h1>ALL WORK!</h1>
-        <h2>AFeatured selection the latest work — of the last years.</h2>
+        <h2>A Featured selection the latest work — of the last years.</h2>
         <p>
           <span>TIP!</span> Drag sideways to navigate
         </p>
       </div>
 
-      <div id="card" className="  border-black border-2">
+      <div id="card" className="w-1/4 border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/645b5439577bd35377de8c43_thumbnail-small.webp?"
           alt="the roger hub"
@@ -71,7 +69,7 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card" className="  border-black border-2">
+      <div id="card" className="w-1/4 border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/647dc0777b1a5df29f8e5a58_thumbnail-small.webp?"
           alt="wow concept"
@@ -86,7 +84,7 @@ const HorizontalList = () => {
         </p>
       </div>
 
-      <div id="card" className="  border-black border-2">
+      <div id="card" className="w-1/4 border-black border-2">
         <img
           src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/615d965c7d1e647b4cb97b73_thumbnail-small.jpeg?"
           alt="prada"
