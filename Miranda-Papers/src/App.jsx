@@ -12,7 +12,10 @@ import WebsiteBanner from "./Components/WebsiteBanner";
 
 const App = () => {
   return (
-    <div className="bg-[#C3BBB2] m-0 p-0 box-border font-NewLight font-light leading-10">
+    <div
+      id="main-page"
+      className="bg-[#C3BBB2] m-0 p-0 box-border font-NewLight font-light leading-10"
+    >
       <Navbar />
       <HorizontalList />
       <MirandaBanner />
