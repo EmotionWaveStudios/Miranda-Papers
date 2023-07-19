@@ -1,24 +1,31 @@
 const Main2 = () => {
   return (
-    <div id="container">
-      <div id="col1">
-        <div id="mini-container">
-          <div id="card">
-            <h2>UPCOMIN NEXT</h2>
-            <h3>
-              Fresh entry — A selected work from the latest digital releases.
+    <div id="container" className="w-[96%] mx-auto mt-20 flex">
+      <div id="col1" className="tracking-tighter w-2/3 pr-10">
+        <div id="mini-container" className="flex mb-10">
+          <div id="card" className="w-2/5 pr-10">
+            <h2 className="text-[70px] font-normal font-Canopee tracking-tighter">
+              UP<span className="font-CondMedium">C</span>
+              <span className="font-CondMedium">O</span>MIN
+              <span className="font-CondMedium">G</span> NEXT
+            </h2>
+            <h3 className="text-4xl py-8">
+              Fresh entry - A selected work from the latest digital releases.
             </h3>
-            <p>
-              <span>TIP!</span> Click on the image to explore
+            <p className="text-lg">
+              <span className="font-Canopee">TIP!</span> Click on the image to
+              explore
             </p>
           </div>
-          <div id="card">
+          <div id="card" className="w-3/5 border-l-[1px] border-black pl-10">
             <img
               src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?"
               alt="man in hat"
             />
-            <h3>UNEXPECTED TIME</h3>
-            <p>
+            <h3 className="tracking-tighter font-Canopee text-3xl py-2">
+              UNEXPE<span className="font-CondMedium">C</span>TED TIME
+            </h3>
+            <p className="text-xl">
               Unexpected Time is a classic-futiristic gamification web
               experience showcasing the lost history & culture in a world
               dominated by the virtual reality.
@@ -31,7 +38,7 @@ const Main2 = () => {
         />
       </div>
 
-      <div id="col2">
+      <div id="col2" className="w-1/3 border-l-[1px] border-black pl-10">
         <h1>
           THINK, CREATE <span>DELIVER</span>
         </h1>

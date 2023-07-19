@@ -3,7 +3,7 @@
 // import Footer from "./Components/Footer";
 import HorizontalList from "./Components/HorizontalList";
 import Main1 from "./Components/Main1";
-// import Main2 from "./Components/Main2";
+import Main2 from "./Components/Main2";
 // import Main3 from "./Components/Main3";
 import MirandaBanner from "./Components/MirandaBanner";
 import Navbar from "./Components/Navbar";
@@ -21,6 +21,7 @@ const App = () => {
       <MirandaBanner />
       <Main1 />
       <WebsiteBanner />
+      <Main2 />
     </div>
   );
 };
