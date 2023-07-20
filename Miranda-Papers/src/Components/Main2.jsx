@@ -17,15 +17,17 @@ const Main2 = () => {
               explore
             </p>
           </div>
+
           <div id="card" className="w-3/5 border-l-[1px] border-black pl-10">
             <img
               src="https://assets.website-files.com/5f9085a4041dd5427c5ac8ae/645b5c79f349770ebcc28ec4_thumbnail-small.webp?"
               alt="man in hat"
+              className="w-[85%]"
             />
             <h3 className="tracking-tighter font-Canopee text-3xl py-2">
               UNEXPE<span className="font-CondMedium">C</span>TED TIME
             </h3>
-            <p className="text-xl">
+            <p className="text-xl w-[85%]">
               Unexpected Time is a classic-futiristic gamification web
               experience showcasing the lost history & culture in a world
               dominated by the virtual reality.
@@ -38,24 +40,32 @@ const Main2 = () => {
         />
       </div>
 
-      <div id="col2" className="w-1/3 border-l-[1px] border-black pl-10">
-        <h1>
-          THINK, CREATE <span>DELIVER</span>
+      <div
+        id="col2"
+        className="w-1/3 border-l-[1px] tracking-tighter border-black pl-10"
+      >
+        <h1 className="tracking-tighter font-normal font-Canopee text-[115px] pb-24 pt-8">
+          THINK, <span className="font-CondMedium">C</span>REATE
+        </h1>
+        <h1 className="font-normal font-Canopee text-[220px] tracking-tighter pb-32">
+          DELIVER
         </h1>
 
-        <p>
+        <p className="text-4xl">
           <span>A</span> strong project is created by deep collaboration. I
           design, develop, and deliver websites that drive results and win
           awards.
         </p>
 
-        <p>
+        <p className="text-4xl pt-10">
           Like an artisan, I like to start from raw matter and giv life to and
           iconic product that makes your brand stand out, starting from a Visual
           Strategy that guide the client's vision to reality.
         </p>
 
-        <button>ALL WORK</button>
+        <button className=" font-Canopee bg-[#C8BFB5] border-[#9E9890] border-2 w-[100%] h-[150px] text-8xl mt-10">
+          ALL W<span className="font-CondMedium">O</span>RK
+        </button>
       </div>
     </div>
   );
