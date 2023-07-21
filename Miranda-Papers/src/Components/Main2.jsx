@@ -63,7 +63,7 @@ const Main2 = () => {
           Strategy that guide the client's vision to reality.
         </p>
 
-        <button className=" font-Canopee bg-[#C8BFB5] border-[#9E9890] border-2 w-[100%] h-[150px] text-8xl mt-10">
+        <button className="font-Canopee bg-[#C8BFB5] border-[#9E9890] border-2 rounded-[50%] w-[100%] h-[150px] text-8xl mt-10">
           ALL W<span className="font-CondMedium">O</span>RK
         </button>
       </div>

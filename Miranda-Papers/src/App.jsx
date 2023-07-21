@@ -1,10 +1,10 @@
-// import Awards from "./Components/Awards";
+import Awards from "./Components/Awards";
 // import ArtisanBanner from "./Components/ArtisanBanner";
 // import Footer from "./Components/Footer";
 import HorizontalList from "./Components/HorizontalList";
 import Main1 from "./Components/Main1";
 import Main2 from "./Components/Main2";
-// import Main3 from "./Components/Main3";
+import Main3 from "./Components/Main3";
 import MirandaBanner from "./Components/MirandaBanner";
 import Navbar from "./Components/Navbar";
 // import QuoteCards from "./Components/QuoteCards";
@@ -22,6 +22,8 @@ const App = () => {
       <Main1 />
       <WebsiteBanner />
       <Main2 />
+      <Awards />
+      <Main3 />
     </div>
   );
 };

@@ -1,6 +1,6 @@
 const Main3 = () => {
   return (
-    <>
+    <div className="w-[96%] mt-20 mx-auto">
       <div id="container">
         <div id="mini-container">
           <div id="col">
@@ -29,7 +29,7 @@ const Main3 = () => {
           PERFECT
         </h1>
       </div>
-    </>
+    </div>
   );
 };
 
