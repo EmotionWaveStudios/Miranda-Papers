@@ -1,5 +1,5 @@
 import Awards from "./Components/Awards";
-// import ArtisanBanner from "./Components/ArtisanBanner";
+import ArtisanBanner from "./Components/ArtisanBanner";
 // import Footer from "./Components/Footer";
 import HorizontalList from "./Components/HorizontalList";
 import Main1 from "./Components/Main1";
@@ -24,6 +24,7 @@ const App = () => {
       <Main2 />
       <Awards />
       <Main3 />
+      <ArtisanBanner />
     </div>
   );
 };
