@@ -7,7 +7,7 @@ import Main2 from "./Components/Main2";
 import Main3 from "./Components/Main3";
 import MirandaBanner from "./Components/MirandaBanner";
 import Navbar from "./Components/Navbar";
-// import QuoteCards from "./Components/QuoteCards";
+import QuoteCards from "./Components/QuoteCards";
 import WebsiteBanner from "./Components/WebsiteBanner";
 
 const App = () => {
@@ -25,6 +25,7 @@ const App = () => {
       <Awards />
       <Main3 />
       <ArtisanBanner />
+      <QuoteCards />
     </div>
   );
 };
