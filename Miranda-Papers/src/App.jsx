@@ -1,6 +1,6 @@
 import Awards from "./Components/Awards";
 import ArtisanBanner from "./Components/ArtisanBanner";
-// import Footer from "./Components/Footer";
+import Footer from "./Components/Footer";
 import HorizontalList from "./Components/HorizontalList";
 import Main1 from "./Components/Main1";
 import Main2 from "./Components/Main2";
@@ -26,6 +26,7 @@ const App = () => {
       <Main3 />
       <ArtisanBanner />
       <QuoteCards />
+      <Footer />
     </div>
   );
 };
