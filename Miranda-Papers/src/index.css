@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family:"Canopee";
+    src: url(./assets/Canopee.woff2);
+    format: ("woff2");
+}
+
+@font-face{
+    font-family: "CondMedium";
+    src: url(./assets/CondMedium.woff2);
+    format: ("woff2");
+}
+
+@font-face{
+    font-family: "NewLight";
+    src: url(./assets/NewLight.woff2);
+    format: ("woff2");
+}

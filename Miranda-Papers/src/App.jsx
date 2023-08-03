@@ -1,35 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Awards from "./Components/Awards";
+import ArtisanBanner from "./Components/ArtisanBanner";
+import Footer from "./Components/Footer";
+import HorizontalList from "./Components/HorizontalList";
+import Main1 from "./Components/Main1";
+import Main2 from "./Components/Main2";
+import Main3 from "./Components/Main3";
+import MirandaBanner from "./Components/MirandaBanner";
+import Navbar from "./Components/Navbar";
+import QuoteCards from "./Components/QuoteCards";
+import WebsiteBanner from "./Components/WebsiteBanner";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <div
+      id="main-page"
+      className="bg-[#C3BBB2] m-0 p-0 box-border font-NewLight font-light leading-10"
+    >
+      <Navbar />
+      <HorizontalList />
+      <MirandaBanner />
+      <Main1 />
+      <WebsiteBanner />
+      <Main2 />
+      <Awards />
+      <Main3 />
+      <ArtisanBanner />
+      <QuoteCards />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
