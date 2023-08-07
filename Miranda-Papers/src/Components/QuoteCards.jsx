@@ -1,7 +1,7 @@
 const QuoteCards = () => {
   return (
     <div className="w-[96%] mx-auto mt-14">
-      <div id="main-container">
+      <div id="main-container" className="flex">
         <div className="w-[44%] border-black border-[3px] rounded-xl h-96">
           <div
             id="card"

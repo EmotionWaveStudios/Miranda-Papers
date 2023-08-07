@@ -61,7 +61,7 @@ const Footer = () => {
           <p>Legal</p>
         </div>
 
-        <ul>
+        <ul className="flex gap-4">
           <li>TWITTER</li>
           <li>INSTAGRAM</li>
           <li>DRIBBBLE</li>
