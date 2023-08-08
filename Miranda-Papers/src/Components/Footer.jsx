@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div>
+    <div className="w-[97%] mx-auto">
       <div id="container">
         <div id="card">
           <img
