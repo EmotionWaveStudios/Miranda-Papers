@@ -1,11 +1,11 @@
 const QuoteCards = () => {
   return (
-    <div className="w-[96%] mx-auto mt-14">
+    <div className="w-[96%] mx-auto mt-14 pb-14 ">
       <div id="main-container" className="flex">
-        <div className="w-[44%] border-black border-[3px] rounded-xl h-96">
+        <div className="w-[44%] border-black border-[3px] rounded-xl h-[645px]">
           <div
             id="card"
-            className="border-black border-[2px] m-3 rounded-xl border-dashed"
+            className="border-black border-[2px] m-3 rounded-xl border-dashed h-[96.5%]"
           >
             <p className="p-10">
               <u className="text-4xl tracking-tighter ">
@@ -32,10 +32,10 @@ const QuoteCards = () => {
           </div>
         </div>
 
-        <div className="w-[44%] border-black border-[3px] rounded-xl h-96">
+        <div className="w-[44%] border-black border-[3px] rounded-xl h-[645px]">
           <div
             id="card"
-            className="border-black border-[2px] m-3 rounded-xl border-dashed"
+            className="border-black border-[2px] m-3 rounded-xl border-dashed h-[96.5%]"
           >
             <p className="p-10">
               <u className="text-4xl tracking-tighter ">
@@ -64,10 +64,10 @@ const QuoteCards = () => {
           </div>
         </div>
 
-        <div className="w-[44%] border-black border-[3px] rounded-xl h-96">
+        <div className="w-[44%] border-black border-[3px] rounded-xl h-[645px]">
           <div
             id="card"
-            className="border-black border-[2px] m-3 rounded-xl border-dashed"
+            className="border-black border-[2px] m-3 rounded-xl border-dashed h-[96.5%]"
           >
             <p className="p-10">
               <u className="text-4xl tracking-tighter ">
@@ -98,10 +98,10 @@ const QuoteCards = () => {
           </div>
         </div>
 
-        <div className="w-[44%] border-black border-[3px] rounded-xl h-96">
+        <div className="w-[44%] border-black border-[3px] rounded-xl h-[645px]">
           <div
             id="card"
-            className="border-black border-[2px] m-3 rounded-xl border-dashed"
+            className="border-black border-[2px] m-3 rounded-xl border-dashed h-[96.5%]"
           >
             <p className="p-10">
               <u className="text-4xl tracking-tighter ">
