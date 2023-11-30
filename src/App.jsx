@@ -26,6 +26,7 @@ const App = () => {
       <Main3 />
       <ArtisanBanner />
       <QuoteCards />
+      <Footer />
     </div>
   );
 };
